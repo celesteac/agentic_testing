@@ -1,12 +1,22 @@
 ## Todo
 
--  finish implementing the react thinking prompt
--  agent loop
+-  troubleshoot the react thinking prompt
+-  coded agent loop
 -  get it to call a tool
 -  parse agent responses for tool calling 
 
 ### Questions
 -  where do I tell it a list of what tools it has? In the prompt? In an attribute of the class and copied into the function?
+-  How do I reset the memory? Or more specifically, how do I persist it?
+
+## Resources and tutorials I used
+
+https://learn.deeplearning.ai/courses/ai-agents-in-langgraph/lesson/c1l2c/build-an-agent-from-scratch
+
+https://youtu.be/mYo7UFwnW1k?si=SE1Hv5Vt7ooIxh6S
+
+https://www.kaggle.com/whitepaper-agents
+
 
 # Agents
 
@@ -21,6 +31,10 @@
 -  tools
 
 ## The thinking loop
+
+The thinking loop has two parts: the description to the agent in itse system prompt and the code loop itself.
+
+### Agent Prompt
 
 Describe to the agent in the prompt the thinking-loop process and output format you would like it to use. Give it instructions and an example.
 
@@ -80,7 +94,11 @@ Action: {next action if needed}
 
 Final Answer: {your complete answer to the question}
 ```
+### Code loop
 
+parses llm responses for specific actions/tools to call
+
+accepts further user input?
 
 ## Memory/Context
 

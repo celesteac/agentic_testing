@@ -1,15 +1,24 @@
-## Todo
+# Current Development notes-to-self
 
+### Todo
 -  troubleshoot the react thinking prompt
 -  coded agent loop
--  get it to call a tool
--  parse agent responses for tool calling 
+    -  parse agent responses for automatic tool calling 
+    -  persist memory for extended conversation
 
-### Questions
--  where do I tell it a list of what tools it has? In the prompt? In an attribute of the class and copied into the function?
--  How do I reset the memory? Or more specifically, how do I persist it?
+### Questions for self
+-  how do I automatically construct the prompt with the tool definitions and list rather than writing it out manually
 
-## Resources and tutorials I used
+# About
+
+This project is a practice-build of a simple math agent, coded using the ollama javascript library. 
+
+### To use
+
+While hosting your own ollama, replace the client url with you localhost url
+
+
+### Resources and tutorials I used
 
 https://learn.deeplearning.ai/courses/ai-agents-in-langgraph/lesson/c1l2c/build-an-agent-from-scratch
 

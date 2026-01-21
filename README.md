@@ -1,5 +1,7 @@
 # Current Development notes-to-self
 
+This project is NOT FINISHED btw
+
 ### Todo
 -  troubleshoot the react thinking prompt
 -  coded agent loop
@@ -18,11 +20,15 @@ This project is a practice-build of a simple math agent, coded using the ollama 
 While hosting your own ollama, replace the client url with you localhost url
 
 
-### Resources and tutorials I used
+### Tutorials I followed
 
 https://learn.deeplearning.ai/courses/ai-agents-in-langgraph/lesson/c1l2c/build-an-agent-from-scratch
 
 https://youtu.be/mYo7UFwnW1k?si=SE1Hv5Vt7ooIxh6S
+
+### Other resources I used
+
+https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!
 
 https://www.kaggle.com/whitepaper-agents
 
